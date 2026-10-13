@@ -1,0 +1,1347 @@
+[
+  {
+    "date": "2000-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.885
+  },
+  {
+    "date": "2000-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.9155
+  },
+  {
+    "date": "2000-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.841
+  },
+  {
+    "date": "2000-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.8465
+  },
+  {
+    "date": "2001-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.8485
+  },
+  {
+    "date": "2001-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.81
+  },
+  {
+    "date": "2001-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7585
+  },
+  {
+    "date": "2001-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.752
+  },
+  {
+    "date": "2001-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7045
+  },
+  {
+    "date": "2001-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.6785
+  },
+  {
+    "date": "2001-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.646
+  },
+  {
+    "date": "2001-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.622
+  },
+  {
+    "date": "2001-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.722
+  },
+  {
+    "date": "2001-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.653
+  },
+  {
+    "date": "2002-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7305
+  },
+  {
+    "date": "2002-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.714
+  },
+  {
+    "date": "2002-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7605
+  },
+  {
+    "date": "2002-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7325
+  },
+  {
+    "date": "2002-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7615
+  },
+  {
+    "date": "2002-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7675
+  },
+  {
+    "date": "2002-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.6775
+  },
+  {
+    "date": "2002-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.687
+  },
+  {
+    "date": "2002-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.714
+  },
+  {
+    "date": "2002-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7495
+  },
+  {
+    "date": "2003-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7915
+  },
+  {
+    "date": "2003-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.775
+  },
+  {
+    "date": "2003-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.7125
+  },
+  {
+    "date": "2003-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.725
+  },
+  {
+    "date": "2003-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.78
+  },
+  {
+    "date": "2003-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.818
+  },
+  {
+    "date": "2003-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.803
+  },
+  {
+    "date": "2003-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.813
+  },
+  {
+    "date": "2003-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.937
+  },
+  {
+    "date": "2003-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 0.907
+  },
+  {
+    "date": "2003-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.043
+  },
+  {
+    "date": "2004-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.143
+  },
+  {
+    "date": "2004-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.3585
+  },
+  {
+    "date": "2004-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.2095
+  },
+  {
+    "date": "2004-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.278
+  },
+  {
+    "date": "2004-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.205
+  },
+  {
+    "date": "2004-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.308
+  },
+  {
+    "date": "2004-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.4
+  },
+  {
+    "date": "2004-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.3475
+  },
+  {
+    "date": "2004-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.443
+  },
+  {
+    "date": "2004-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.487
+  },
+  {
+    "date": "2005-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.463
+  },
+  {
+    "date": "2005-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.5
+  },
+  {
+    "date": "2005-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.509
+  },
+  {
+    "date": "2005-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.498
+  },
+  {
+    "date": "2005-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.5535
+  },
+  {
+    "date": "2005-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.6875
+  },
+  {
+    "date": "2005-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.695
+  },
+  {
+    "date": "2005-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.8015
+  },
+  {
+    "date": "2005-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 1.896
+  },
+  {
+    "date": "2005-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.075
+  },
+  {
+    "date": "2005-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.1615
+  },
+  {
+    "date": "2006-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.1855
+  },
+  {
+    "date": "2006-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.488
+  },
+  {
+    "date": "2006-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.3355
+  },
+  {
+    "date": "2006-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.7165
+  },
+  {
+    "date": "2006-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.4625
+  },
+  {
+    "date": "2006-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.61
+  },
+  {
+    "date": "2006-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.469
+  },
+  {
+    "date": "2006-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.459
+  },
+  {
+    "date": "2006-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.1715
+  },
+  {
+    "date": "2006-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.854
+  },
+  {
+    "date": "2007-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.5835
+  },
+  {
+    "date": "2007-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.733
+  },
+  {
+    "date": "2007-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.1435
+  },
+  {
+    "date": "2007-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.3935
+  },
+  {
+    "date": "2007-06-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.4535
+  },
+  {
+    "date": "2007-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.411
+  },
+  {
+    "date": "2007-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.6305
+  },
+  {
+    "date": "2007-10-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.468
+  },
+  {
+    "date": "2007-11-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.157
+  },
+  {
+    "date": "2007-12-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.0305
+  },
+  {
+    "date": "2008-01-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.2895
+  },
+  {
+    "date": "2008-02-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.852
+  },
+  {
+    "date": "2008-03-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.8635
+  },
+  {
+    "date": "2008-04-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.934
+  },
+  {
+    "date": "2008-05-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.628
+  },
+  {
+    "date": "2008-07-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.7165
+  },
+  {
+    "date": "2008-08-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 3.4295
+  },
+  {
+    "date": "2008-09-01",
+    "steel_hrc_usd_per_short_ton": null,
+    "copper_hg_usd_per_lb": 2.888
+  },
+  {
+    "date": "2008-10-01",
+    "steel_hrc_usd_per_short_ton": 625,
+    "copper_hg_usd_per_lb": 1.844
+  },
+  {
+    "date": "2008-11-01",
+    "steel_hrc_usd_per_short_ton": 595,
+    "copper_hg_usd_per_lb": 1.6235
+  },
+  {
+    "date": "2008-12-01",
+    "steel_hrc_usd_per_short_ton": 525,
+    "copper_hg_usd_per_lb": 1.395
+  },
+  {
+    "date": "2009-01-01",
+    "steel_hrc_usd_per_short_ton": 515,
+    "copper_hg_usd_per_lb": 1.462
+  },
+  {
+    "date": "2009-04-01",
+    "steel_hrc_usd_per_short_ton": 415,
+    "copper_hg_usd_per_lb": 2.053
+  },
+  {
+    "date": "2009-05-01",
+    "steel_hrc_usd_per_short_ton": 405,
+    "copper_hg_usd_per_lb": 2.1975
+  },
+  {
+    "date": "2009-06-01",
+    "steel_hrc_usd_per_short_ton": 445,
+    "copper_hg_usd_per_lb": 2.258
+  },
+  {
+    "date": "2009-07-01",
+    "steel_hrc_usd_per_short_ton": 480,
+    "copper_hg_usd_per_lb": 2.6165
+  },
+  {
+    "date": "2009-08-01",
+    "steel_hrc_usd_per_short_ton": 525,
+    "copper_hg_usd_per_lb": 2.808
+  },
+  {
+    "date": "2009-09-01",
+    "steel_hrc_usd_per_short_ton": 540,
+    "copper_hg_usd_per_lb": 2.809
+  },
+  {
+    "date": "2009-10-01",
+    "steel_hrc_usd_per_short_ton": 555,
+    "copper_hg_usd_per_lb": 2.9475
+  },
+  {
+    "date": "2009-12-01",
+    "steel_hrc_usd_per_short_ton": 513,
+    "copper_hg_usd_per_lb": 3.3275
+  },
+  {
+    "date": "2010-01-01",
+    "steel_hrc_usd_per_short_ton": 561,
+    "copper_hg_usd_per_lb": 3.046
+  },
+  {
+    "date": "2010-02-01",
+    "steel_hrc_usd_per_short_ton": 630,
+    "copper_hg_usd_per_lb": 3.2685
+  },
+  {
+    "date": "2010-03-01",
+    "steel_hrc_usd_per_short_ton": 700,
+    "copper_hg_usd_per_lb": 3.546
+  },
+  {
+    "date": "2010-04-01",
+    "steel_hrc_usd_per_short_ton": 690,
+    "copper_hg_usd_per_lb": 3.3375
+  },
+  {
+    "date": "2010-05-01",
+    "steel_hrc_usd_per_short_ton": 665,
+    "copper_hg_usd_per_lb": 3.097
+  },
+  {
+    "date": "2010-06-01",
+    "steel_hrc_usd_per_short_ton": 615,
+    "copper_hg_usd_per_lb": 2.936
+  },
+  {
+    "date": "2010-07-01",
+    "steel_hrc_usd_per_short_ton": 580,
+    "copper_hg_usd_per_lb": 3.307
+  },
+  {
+    "date": "2010-09-01",
+    "steel_hrc_usd_per_short_ton": 590,
+    "copper_hg_usd_per_lb": 3.646
+  },
+  {
+    "date": "2010-10-01",
+    "steel_hrc_usd_per_short_ton": 555,
+    "copper_hg_usd_per_lb": 3.732
+  },
+  {
+    "date": "2010-11-01",
+    "steel_hrc_usd_per_short_ton": 565,
+    "copper_hg_usd_per_lb": 3.823
+  },
+  {
+    "date": "2010-12-01",
+    "steel_hrc_usd_per_short_ton": 690,
+    "copper_hg_usd_per_lb": 4.4395
+  },
+  {
+    "date": "2011-01-01",
+    "steel_hrc_usd_per_short_ton": 765,
+    "copper_hg_usd_per_lb": 4.451
+  },
+  {
+    "date": "2011-02-01",
+    "steel_hrc_usd_per_short_ton": 845,
+    "copper_hg_usd_per_lb": 4.478
+  },
+  {
+    "date": "2011-03-01",
+    "steel_hrc_usd_per_short_ton": 880,
+    "copper_hg_usd_per_lb": 4.3
+  },
+  {
+    "date": "2011-04-01",
+    "steel_hrc_usd_per_short_ton": 780,
+    "copper_hg_usd_per_lb": 4.1655
+  },
+  {
+    "date": "2011-06-01",
+    "steel_hrc_usd_per_short_ton": 722,
+    "copper_hg_usd_per_lb": 4.272
+  },
+  {
+    "date": "2011-07-01",
+    "steel_hrc_usd_per_short_ton": 680,
+    "copper_hg_usd_per_lb": 4.474
+  },
+  {
+    "date": "2011-08-01",
+    "steel_hrc_usd_per_short_ton": 695,
+    "copper_hg_usd_per_lb": 4.187
+  },
+  {
+    "date": "2011-09-01",
+    "steel_hrc_usd_per_short_ton": 675,
+    "copper_hg_usd_per_lb": 3.145
+  },
+  {
+    "date": "2011-10-01",
+    "steel_hrc_usd_per_short_ton": 635,
+    "copper_hg_usd_per_lb": 3.629
+  },
+  {
+    "date": "2011-11-01",
+    "steel_hrc_usd_per_short_ton": 655,
+    "copper_hg_usd_per_lb": 3.563
+  },
+  {
+    "date": "2011-12-01",
+    "steel_hrc_usd_per_short_ton": 725,
+    "copper_hg_usd_per_lb": 3.4315
+  },
+  {
+    "date": "2012-02-01",
+    "steel_hrc_usd_per_short_ton": 693,
+    "copper_hg_usd_per_lb": 3.8705
+  },
+  {
+    "date": "2012-03-01",
+    "steel_hrc_usd_per_short_ton": 695,
+    "copper_hg_usd_per_lb": 3.824
+  },
+  {
+    "date": "2012-05-01",
+    "steel_hrc_usd_per_short_ton": 640,
+    "copper_hg_usd_per_lb": 3.3625
+  },
+  {
+    "date": "2012-06-01",
+    "steel_hrc_usd_per_short_ton": 600,
+    "copper_hg_usd_per_lb": 3.49
+  },
+  {
+    "date": "2012-08-01",
+    "steel_hrc_usd_per_short_ton": 640,
+    "copper_hg_usd_per_lb": 3.454
+  },
+  {
+    "date": "2012-09-01",
+    "steel_hrc_usd_per_short_ton": 598,
+    "copper_hg_usd_per_lb": 3.773
+  },
+  {
+    "date": "2012-10-01",
+    "steel_hrc_usd_per_short_ton": 618,
+    "copper_hg_usd_per_lb": 3.527
+  },
+  {
+    "date": "2012-11-01",
+    "steel_hrc_usd_per_short_ton": 650,
+    "copper_hg_usd_per_lb": 3.6295
+  },
+  {
+    "date": "2012-12-01",
+    "steel_hrc_usd_per_short_ton": 655,
+    "copper_hg_usd_per_lb": 3.641
+  },
+  {
+    "date": "2013-01-01",
+    "steel_hrc_usd_per_short_ton": 633,
+    "copper_hg_usd_per_lb": 3.7235
+  },
+  {
+    "date": "2013-02-01",
+    "steel_hrc_usd_per_short_ton": 614,
+    "copper_hg_usd_per_lb": 3.5275
+  },
+  {
+    "date": "2013-03-01",
+    "steel_hrc_usd_per_short_ton": 615,
+    "copper_hg_usd_per_lb": 3.395
+  },
+  {
+    "date": "2013-04-01",
+    "steel_hrc_usd_per_short_ton": 595,
+    "copper_hg_usd_per_lb": 3.1875
+  },
+  {
+    "date": "2013-05-01",
+    "steel_hrc_usd_per_short_ton": 588,
+    "copper_hg_usd_per_lb": 3.289
+  },
+  {
+    "date": "2013-06-01",
+    "steel_hrc_usd_per_short_ton": 632,
+    "copper_hg_usd_per_lb": 3.0505
+  },
+  {
+    "date": "2013-07-01",
+    "steel_hrc_usd_per_short_ton": 642,
+    "copper_hg_usd_per_lb": 3.1185
+  },
+  {
+    "date": "2013-08-01",
+    "steel_hrc_usd_per_short_ton": 645,
+    "copper_hg_usd_per_lb": 3.225
+  },
+  {
+    "date": "2013-10-01",
+    "steel_hrc_usd_per_short_ton": 659,
+    "copper_hg_usd_per_lb": 3.2945
+  },
+  {
+    "date": "2013-11-01",
+    "steel_hrc_usd_per_short_ton": 675,
+    "copper_hg_usd_per_lb": 3.2305
+  },
+  {
+    "date": "2014-01-01",
+    "steel_hrc_usd_per_short_ton": 655,
+    "copper_hg_usd_per_lb": 3.2205
+  },
+  {
+    "date": "2014-02-01",
+    "steel_hrc_usd_per_short_ton": 627,
+    "copper_hg_usd_per_lb": 3.2385
+  },
+  {
+    "date": "2014-03-01",
+    "steel_hrc_usd_per_short_ton": 639,
+    "copper_hg_usd_per_lb": 3.0465
+  },
+  {
+    "date": "2014-04-01",
+    "steel_hrc_usd_per_short_ton": 680,
+    "copper_hg_usd_per_lb": 3.0295
+  },
+  {
+    "date": "2014-05-01",
+    "steel_hrc_usd_per_short_ton": 670,
+    "copper_hg_usd_per_lb": 3.136
+  },
+  {
+    "date": "2014-07-01",
+    "steel_hrc_usd_per_short_ton": 669,
+    "copper_hg_usd_per_lb": 3.223
+  },
+  {
+    "date": "2014-08-01",
+    "steel_hrc_usd_per_short_ton": 662,
+    "copper_hg_usd_per_lb": 3.135
+  },
+  {
+    "date": "2014-09-01",
+    "steel_hrc_usd_per_short_ton": 639,
+    "copper_hg_usd_per_lb": 3.0055
+  },
+  {
+    "date": "2014-10-01",
+    "steel_hrc_usd_per_short_ton": 638,
+    "copper_hg_usd_per_lb": 3.061
+  },
+  {
+    "date": "2014-11-01",
+    "steel_hrc_usd_per_short_ton": 629,
+    "copper_hg_usd_per_lb": 2.86
+  },
+  {
+    "date": "2014-12-01",
+    "steel_hrc_usd_per_short_ton": 605,
+    "copper_hg_usd_per_lb": 2.8385
+  },
+  {
+    "date": "2015-01-01",
+    "steel_hrc_usd_per_short_ton": 550,
+    "copper_hg_usd_per_lb": 2.528
+  },
+  {
+    "date": "2015-04-01",
+    "steel_hrc_usd_per_short_ton": 462,
+    "copper_hg_usd_per_lb": 2.8865
+  },
+  {
+    "date": "2015-05-01",
+    "steel_hrc_usd_per_short_ton": 464,
+    "copper_hg_usd_per_lb": 2.7595
+  },
+  {
+    "date": "2015-06-01",
+    "steel_hrc_usd_per_short_ton": 465,
+    "copper_hg_usd_per_lb": 2.6235
+  },
+  {
+    "date": "2015-07-01",
+    "steel_hrc_usd_per_short_ton": 478,
+    "copper_hg_usd_per_lb": 2.3675
+  },
+  {
+    "date": "2015-08-01",
+    "steel_hrc_usd_per_short_ton": 463,
+    "copper_hg_usd_per_lb": 2.338
+  },
+  {
+    "date": "2015-09-01",
+    "steel_hrc_usd_per_short_ton": 418,
+    "copper_hg_usd_per_lb": 2.3455
+  },
+  {
+    "date": "2015-10-01",
+    "steel_hrc_usd_per_short_ton": 397,
+    "copper_hg_usd_per_lb": 2.3135
+  },
+  {
+    "date": "2015-12-01",
+    "steel_hrc_usd_per_short_ton": 391,
+    "copper_hg_usd_per_lb": 2.1255
+  },
+  {
+    "date": "2016-01-01",
+    "steel_hrc_usd_per_short_ton": 401,
+    "copper_hg_usd_per_lb": 2.064
+  },
+  {
+    "date": "2016-02-01",
+    "steel_hrc_usd_per_short_ton": 402,
+    "copper_hg_usd_per_lb": 2.1285
+  },
+  {
+    "date": "2016-03-01",
+    "steel_hrc_usd_per_short_ton": 480,
+    "copper_hg_usd_per_lb": 2.1815
+  },
+  {
+    "date": "2016-04-01",
+    "steel_hrc_usd_per_short_ton": 560,
+    "copper_hg_usd_per_lb": 2.279
+  },
+  {
+    "date": "2016-06-01",
+    "steel_hrc_usd_per_short_ton": 618,
+    "copper_hg_usd_per_lb": 2.1945
+  },
+  {
+    "date": "2016-07-01",
+    "steel_hrc_usd_per_short_ton": 595,
+    "copper_hg_usd_per_lb": 2.2205
+  },
+  {
+    "date": "2016-08-01",
+    "steel_hrc_usd_per_short_ton": 555,
+    "copper_hg_usd_per_lb": 2.0695
+  },
+  {
+    "date": "2016-09-01",
+    "steel_hrc_usd_per_short_ton": 496,
+    "copper_hg_usd_per_lb": 2.202
+  },
+  {
+    "date": "2016-10-01",
+    "steel_hrc_usd_per_short_ton": 492,
+    "copper_hg_usd_per_lb": 2.2005
+  },
+  {
+    "date": "2016-11-01",
+    "steel_hrc_usd_per_short_ton": 562,
+    "copper_hg_usd_per_lb": 2.6215
+  },
+  {
+    "date": "2016-12-01",
+    "steel_hrc_usd_per_short_ton": 633,
+    "copper_hg_usd_per_lb": 2.4975
+  },
+  {
+    "date": "2017-02-01",
+    "steel_hrc_usd_per_short_ton": 614,
+    "copper_hg_usd_per_lb": 2.704
+  },
+  {
+    "date": "2017-03-01",
+    "steel_hrc_usd_per_short_ton": 630,
+    "copper_hg_usd_per_lb": 2.6465
+  },
+  {
+    "date": "2017-04-01",
+    "steel_hrc_usd_per_short_ton": 615,
+    "copper_hg_usd_per_lb": 2.5965
+  },
+  {
+    "date": "2017-05-01",
+    "steel_hrc_usd_per_short_ton": 575,
+    "copper_hg_usd_per_lb": 2.577
+  },
+  {
+    "date": "2017-06-01",
+    "steel_hrc_usd_per_short_ton": 640,
+    "copper_hg_usd_per_lb": 2.699
+  },
+  {
+    "date": "2017-07-01",
+    "steel_hrc_usd_per_short_ton": 628,
+    "copper_hg_usd_per_lb": 2.888
+  },
+  {
+    "date": "2017-08-01",
+    "steel_hrc_usd_per_short_ton": 634,
+    "copper_hg_usd_per_lb": 3.079
+  },
+  {
+    "date": "2017-09-01",
+    "steel_hrc_usd_per_short_ton": 599,
+    "copper_hg_usd_per_lb": 2.9375
+  },
+  {
+    "date": "2017-11-01",
+    "steel_hrc_usd_per_short_ton": 629,
+    "copper_hg_usd_per_lb": 3.037
+  },
+  {
+    "date": "2017-12-01",
+    "steel_hrc_usd_per_short_ton": 662,
+    "copper_hg_usd_per_lb": 3.2795
+  },
+  {
+    "date": "2018-01-01",
+    "steel_hrc_usd_per_short_ton": 731,
+    "copper_hg_usd_per_lb": 3.184
+  },
+  {
+    "date": "2018-02-01",
+    "steel_hrc_usd_per_short_ton": 805,
+    "copper_hg_usd_per_lb": 3.1075
+  },
+  {
+    "date": "2018-03-01",
+    "steel_hrc_usd_per_short_ton": 859,
+    "copper_hg_usd_per_lb": 3.019
+  },
+  {
+    "date": "2018-05-01",
+    "steel_hrc_usd_per_short_ton": 920,
+    "copper_hg_usd_per_lb": 3.058
+  },
+  {
+    "date": "2018-06-01",
+    "steel_hrc_usd_per_short_ton": 910,
+    "copper_hg_usd_per_lb": 2.951
+  },
+  {
+    "date": "2018-08-01",
+    "steel_hrc_usd_per_short_ton": 865,
+    "copper_hg_usd_per_lb": 2.649
+  },
+  {
+    "date": "2018-09-01",
+    "steel_hrc_usd_per_short_ton": 841,
+    "copper_hg_usd_per_lb": 2.787
+  },
+  {
+    "date": "2018-10-01",
+    "steel_hrc_usd_per_short_ton": 831,
+    "copper_hg_usd_per_lb": 2.6635
+  },
+  {
+    "date": "2018-11-01",
+    "steel_hrc_usd_per_short_ton": 771,
+    "copper_hg_usd_per_lb": 2.7775
+  },
+  {
+    "date": "2018-12-01",
+    "steel_hrc_usd_per_short_ton": 721,
+    "copper_hg_usd_per_lb": 2.628
+  },
+  {
+    "date": "2019-01-01",
+    "steel_hrc_usd_per_short_ton": 694,
+    "copper_hg_usd_per_lb": 2.789
+  },
+  {
+    "date": "2019-02-01",
+    "steel_hrc_usd_per_short_ton": 714,
+    "copper_hg_usd_per_lb": 2.95
+  },
+  {
+    "date": "2019-03-01",
+    "steel_hrc_usd_per_short_ton": 697,
+    "copper_hg_usd_per_lb": 2.936
+  },
+  {
+    "date": "2019-04-01",
+    "steel_hrc_usd_per_short_ton": 654,
+    "copper_hg_usd_per_lb": 2.9015
+  },
+  {
+    "date": "2019-05-01",
+    "steel_hrc_usd_per_short_ton": 584,
+    "copper_hg_usd_per_lb": 2.646
+  },
+  {
+    "date": "2019-06-01",
+    "steel_hrc_usd_per_short_ton": 536,
+    "copper_hg_usd_per_lb": 2.7055
+  },
+  {
+    "date": "2019-07-01",
+    "steel_hrc_usd_per_short_ton": 606,
+    "copper_hg_usd_per_lb": 2.658
+  },
+  {
+    "date": "2019-08-01",
+    "steel_hrc_usd_per_short_ton": 560,
+    "copper_hg_usd_per_lb": 2.533
+  },
+  {
+    "date": "2019-10-01",
+    "steel_hrc_usd_per_short_ton": 498,
+    "copper_hg_usd_per_lb": 2.633
+  },
+  {
+    "date": "2019-11-01",
+    "steel_hrc_usd_per_short_ton": 550,
+    "copper_hg_usd_per_lb": 2.642
+  },
+  {
+    "date": "2020-01-01",
+    "steel_hrc_usd_per_short_ton": 578,
+    "copper_hg_usd_per_lb": 2.52
+  },
+  {
+    "date": "2020-02-01",
+    "steel_hrc_usd_per_short_ton": 590,
+    "copper_hg_usd_per_lb": 2.546
+  },
+  {
+    "date": "2020-04-01",
+    "steel_hrc_usd_per_short_ton": 468,
+    "copper_hg_usd_per_lb": 2.354
+  },
+  {
+    "date": "2020-05-01",
+    "steel_hrc_usd_per_short_ton": 513,
+    "copper_hg_usd_per_lb": 2.4265
+  },
+  {
+    "date": "2020-06-01",
+    "steel_hrc_usd_per_short_ton": 488,
+    "copper_hg_usd_per_lb": 2.7135
+  },
+  {
+    "date": "2020-07-01",
+    "steel_hrc_usd_per_short_ton": 482,
+    "copper_hg_usd_per_lb": 2.859
+  },
+  {
+    "date": "2020-08-01",
+    "steel_hrc_usd_per_short_ton": 518,
+    "copper_hg_usd_per_lb": 3.041
+  },
+  {
+    "date": "2020-09-01",
+    "steel_hrc_usd_per_short_ton": 615,
+    "copper_hg_usd_per_lb": 3.0285
+  },
+  {
+    "date": "2020-10-01",
+    "steel_hrc_usd_per_short_ton": 699,
+    "copper_hg_usd_per_lb": 3.0435
+  },
+  {
+    "date": "2020-12-01",
+    "steel_hrc_usd_per_short_ton": 1005,
+    "copper_hg_usd_per_lb": 3.514
+  },
+  {
+    "date": "2021-01-01",
+    "steel_hrc_usd_per_short_ton": 1149,
+    "copper_hg_usd_per_lb": 3.5735
+  },
+  {
+    "date": "2021-02-01",
+    "steel_hrc_usd_per_short_ton": 1264,
+    "copper_hg_usd_per_lb": 4.0945
+  },
+  {
+    "date": "2021-03-01",
+    "steel_hrc_usd_per_short_ton": 1348,
+    "copper_hg_usd_per_lb": 4.003
+  },
+  {
+    "date": "2021-04-01",
+    "steel_hrc_usd_per_short_ton": 1505,
+    "copper_hg_usd_per_lb": 4.479
+  },
+  {
+    "date": "2021-05-01",
+    "steel_hrc_usd_per_short_ton": 1665,
+    "copper_hg_usd_per_lb": 4.6825
+  },
+  {
+    "date": "2021-06-01",
+    "steel_hrc_usd_per_short_ton": 1810,
+    "copper_hg_usd_per_lb": 4.2965
+  },
+  {
+    "date": "2021-07-01",
+    "steel_hrc_usd_per_short_ton": 1888,
+    "copper_hg_usd_per_lb": 4.4805
+  },
+  {
+    "date": "2021-09-01",
+    "steel_hrc_usd_per_short_ton": 1900,
+    "copper_hg_usd_per_lb": 4.09
+  },
+  {
+    "date": "2021-10-01",
+    "steel_hrc_usd_per_short_ton": 1803,
+    "copper_hg_usd_per_lb": 4.3755
+  },
+  {
+    "date": "2021-11-01",
+    "steel_hrc_usd_per_short_ton": 1610,
+    "copper_hg_usd_per_lb": 4.278
+  },
+  {
+    "date": "2021-12-01",
+    "steel_hrc_usd_per_short_ton": 1435,
+    "copper_hg_usd_per_lb": 4.455
+  },
+  {
+    "date": "2022-01-01",
+    "steel_hrc_usd_per_short_ton": 1165,
+    "copper_hg_usd_per_lb": 4.318
+  },
+  {
+    "date": "2022-02-01",
+    "steel_hrc_usd_per_short_ton": 1056,
+    "copper_hg_usd_per_lb": 4.4445
+  },
+  {
+    "date": "2022-03-01",
+    "steel_hrc_usd_per_short_ton": 1541,
+    "copper_hg_usd_per_lb": 4.743
+  },
+  {
+    "date": "2022-04-01",
+    "steel_hrc_usd_per_short_ton": 1400,
+    "copper_hg_usd_per_lb": 4.395
+  },
+  {
+    "date": "2022-06-01",
+    "steel_hrc_usd_per_short_ton": 930,
+    "copper_hg_usd_per_lb": 3.7145
+  },
+  {
+    "date": "2022-07-01",
+    "steel_hrc_usd_per_short_ton": 855,
+    "copper_hg_usd_per_lb": 3.584
+  },
+  {
+    "date": "2022-08-01",
+    "steel_hrc_usd_per_short_ton": 780,
+    "copper_hg_usd_per_lb": 3.5185
+  },
+  {
+    "date": "2022-09-01",
+    "steel_hrc_usd_per_short_ton": 776,
+    "copper_hg_usd_per_lb": 3.442
+  },
+  {
+    "date": "2022-10-01",
+    "steel_hrc_usd_per_short_ton": 713,
+    "copper_hg_usd_per_lb": 3.4135
+  },
+  {
+    "date": "2022-11-01",
+    "steel_hrc_usd_per_short_ton": 655,
+    "copper_hg_usd_per_lb": 3.7295
+  },
+  {
+    "date": "2022-12-01",
+    "steel_hrc_usd_per_short_ton": 744,
+    "copper_hg_usd_per_lb": 3.8055
+  },
+  {
+    "date": "2023-02-01",
+    "steel_hrc_usd_per_short_ton": 1054,
+    "copper_hg_usd_per_lb": 4.0975
+  },
+  {
+    "date": "2023-03-01",
+    "steel_hrc_usd_per_short_ton": 1164,
+    "copper_hg_usd_per_lb": 4.1045
+  },
+  {
+    "date": "2023-04-01",
+    "steel_hrc_usd_per_short_ton": 1069,
+    "copper_hg_usd_per_lb": 3.87
+  },
+  {
+    "date": "2023-05-01",
+    "steel_hrc_usd_per_short_ton": 934,
+    "copper_hg_usd_per_lb": 3.631
+  },
+  {
+    "date": "2023-06-01",
+    "steel_hrc_usd_per_short_ton": 881,
+    "copper_hg_usd_per_lb": 3.741
+  },
+  {
+    "date": "2023-07-01",
+    "steel_hrc_usd_per_short_ton": 825,
+    "copper_hg_usd_per_lb": 3.9945
+  },
+  {
+    "date": "2023-08-01",
+    "steel_hrc_usd_per_short_ton": 729,
+    "copper_hg_usd_per_lb": 3.7725
+  },
+  {
+    "date": "2023-09-01",
+    "steel_hrc_usd_per_short_ton": 704,
+    "copper_hg_usd_per_lb": 3.726
+  },
+  {
+    "date": "2023-11-01",
+    "steel_hrc_usd_per_short_ton": 1044.0,
+    "copper_hg_usd_per_lb": 3.829
+  },
+  {
+    "date": "2023-12-01",
+    "steel_hrc_usd_per_short_ton": 1135.0,
+    "copper_hg_usd_per_lb": 3.8805
+  },
+  {
+    "date": "2024-01-01",
+    "steel_hrc_usd_per_short_ton": 963.0,
+    "copper_hg_usd_per_lb": 3.9025
+  },
+  {
+    "date": "2024-02-01",
+    "steel_hrc_usd_per_short_ton": 795.0,
+    "copper_hg_usd_per_lb": 3.8345
+  },
+  {
+    "date": "2024-03-01",
+    "steel_hrc_usd_per_short_ton": 860.0,
+    "copper_hg_usd_per_lb": 4.0035
+  },
+  {
+    "date": "2024-04-01",
+    "steel_hrc_usd_per_short_ton": 813.0,
+    "copper_hg_usd_per_lb": 4.5645
+  },
+  {
+    "date": "2024-05-01",
+    "steel_hrc_usd_per_short_ton": 761.0,
+    "copper_hg_usd_per_lb": 4.61
+  },
+  {
+    "date": "2024-06-01",
+    "steel_hrc_usd_per_short_ton": 674.0,
+    "copper_hg_usd_per_lb": 4.3905
+  },
+  {
+    "date": "2024-07-01",
+    "steel_hrc_usd_per_short_ton": 704.0,
+    "copper_hg_usd_per_lb": 4.16
+  },
+  {
+    "date": "2024-08-01",
+    "steel_hrc_usd_per_short_ton": 714.0,
+    "copper_hg_usd_per_lb": 4.145
+  },
+  {
+    "date": "2024-10-01",
+    "steel_hrc_usd_per_short_ton": 715.0,
+    "copper_hg_usd_per_lb": 4.3135
+  },
+  {
+    "date": "2024-11-01",
+    "steel_hrc_usd_per_short_ton": 700.0,
+    "copper_hg_usd_per_lb": 4.0805
+  },
+  {
+    "date": "2025-01-01",
+    "steel_hrc_usd_per_short_ton": 740.0,
+    "copper_hg_usd_per_lb": 4.262
+  },
+  {
+    "date": "2025-02-01",
+    "steel_hrc_usd_per_short_ton": 912.0,
+    "copper_hg_usd_per_lb": 4.5145
+  },
+  {
+    "date": "2025-03-01",
+    "steel_hrc_usd_per_short_ton": 890.0,
+    "copper_hg_usd_per_lb": 5.02
+  },
+  {
+    "date": "2025-04-01",
+    "steel_hrc_usd_per_short_ton": 866.0,
+    "copper_hg_usd_per_lb": 4.56
+  },
+  {
+    "date": "2025-05-01",
+    "steel_hrc_usd_per_short_ton": 840.0,
+    "copper_hg_usd_per_lb": 4.6525
+  },
+  {
+    "date": "2025-07-01",
+    "steel_hrc_usd_per_short_ton": 842.0,
+    "copper_hg_usd_per_lb": 4.3305
+  },
+  {
+    "date": "2025-08-01",
+    "steel_hrc_usd_per_short_ton": 793.0,
+    "copper_hg_usd_per_lb": 4.5185
+  },
+  {
+    "date": "2025-09-01",
+    "steel_hrc_usd_per_short_ton": 800.0,
+    "copper_hg_usd_per_lb": 4.805
+  },
+  {
+    "date": "2025-10-01",
+    "steel_hrc_usd_per_short_ton": 851.0,
+    "copper_hg_usd_per_lb": 5.0655
+  },
+  {
+    "date": "2025-11-01",
+    "steel_hrc_usd_per_short_ton": 908.0,
+    "copper_hg_usd_per_lb": 5.1855
+  },
+  {
+    "date": "2025-12-01",
+    "steel_hrc_usd_per_short_ton": 935.0,
+    "copper_hg_usd_per_lb": 5.63
+  },
+  {
+    "date": "2026-01-01",
+    "steel_hrc_usd_per_short_ton": 972.0,
+    "copper_hg_usd_per_lb": 5.897
+  },
+  {
+    "date": "2026-04-01",
+    "steel_hrc_usd_per_short_ton": 1081.0,
+    "copper_hg_usd_per_lb": 5.926
+  },
+  {
+    "date": "2026-05-01",
+    "steel_hrc_usd_per_short_ton": 1123.0,
+    "copper_hg_usd_per_lb": 6.3595
+  },
+  {
+    "date": "2026-06-01",
+    "steel_hrc_usd_per_short_ton": 1155.0,
+    "copper_hg_usd_per_lb": 6.1925
+  },
+  {
+    "date": "2026-07-01",
+    "steel_hrc_usd_per_short_ton": 1191.0,
+    "copper_hg_usd_per_lb": 6.436
+  },
+  {
+    "date": "2026-08-01",
+    "steel_hrc_usd_per_short_ton": 1207.0,
+    "copper_hg_usd_per_lb": 6.5935
+  },
+  {
+    "date": "2026-09-01",
+    "steel_hrc_usd_per_short_ton": 1275.0,
+    "copper_hg_usd_per_lb": 6.559
+  },
+  {
+    "date": "2026-10-01",
+    "steel_hrc_usd_per_short_ton": 1317.0,
+    "copper_hg_usd_per_lb": 6.7535
+  }
+]

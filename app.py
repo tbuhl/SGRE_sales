@@ -17,6 +17,9 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 
+from intel.common import load_segment_results
+from intel.ui import get_intel, render_executive_briefing, render_intelligence_lab
+
 
 APP_TITLE = "Siemens Gamesa Sales Intelligence Dashboard"
 DATA_DIR = Path("data")
@@ -561,6 +564,20 @@ div[data-testid="stMetric"] div[data-testid="stMetricLabel"] {{
 div[data-testid="stMetric"] div[data-testid="stMetricValue"] {{
   color: {metric_value_color} !important;
   letter-spacing: -0.01em;
+}}
+
+.st-key-header_kpis div[data-testid="stMetricValue"] {{
+  font-size: 1.5rem;
+}}
+
+.st-key-header_kpis div[data-testid="stMetricValue"] > div,
+.st-key-header_kpis div[data-testid="stMetricDelta"] > div {{
+  overflow: visible !important;
+  text-overflow: clip !important;
+}}
+
+.st-key-header_kpis div[data-testid="stMetricDelta"] > div {{
+  white-space: normal !important;
 }}
 
 div[data-testid="stMetricDelta"] {{
@@ -1487,6 +1504,7 @@ def find_default_workbook() -> Path | None:
             return files[0]
     return None
 
+
 def empty_stock_frame() -> pd.DataFrame:
     return pd.DataFrame(columns=["date", "open", "high", "low", "close", "adj_close", "volume"])
 
@@ -2055,6 +2073,7 @@ def latest_data_handled_text(
     orders: pd.DataFrame,
     stock_monthly: pd.DataFrame,
     market_monthly: pd.DataFrame,
+    reported_label: str | None = None,
 ) -> str:
     economy_max_year = int(economy["year"].max()) if economy is not None and not economy.empty else None
     orders_max_date = pd.to_datetime(orders["order_date"], errors="coerce").max() if orders is not None and not orders.empty else pd.NaT
@@ -2074,7 +2093,7 @@ def latest_data_handled_text(
 
     return (
         f"Latest handled data -> Economy: {econ_txt}; Orders: {orders_txt}; "
-        f"Stock: {stock_txt}; Steel/Copper: {market_txt}. "
+        f"Reported results: {reported_label or '-'}; Stock: {stock_txt} (delisted 2023); Steel/Copper: {market_txt}. "
         "Not a live feed; updates occur when source files/feeds are refreshed."
     )
 
@@ -2139,13 +2158,19 @@ def render_information_page() -> None:
     st.subheader("Information")
     st.markdown("**Data source**")
     st.write("This dashboard is build on public available data.")
+    st.write(
+        "Reported orders, revenue, profit before special items and backlog for Siemens Gamesa come from Siemens Energy's quarterly earnings releases "
+        "(`data/sgre_segment_results.json`, fiscal year October-September). Steel and copper series are refreshed with `tools/refresh_market_data.py`; "
+        "the share-price series ends at the 2023 delisting."
+    )
 
     st.markdown("**How to use and navigate**")
     st.write(
         "Use the sidebar filters to narrow years, countries, platforms, and minimum order size."
     )
     st.write(
-        "Navigate tabs from high-level trends (Overall/Yearly/Quarterly) to deep dives (Across Years, Platform, Country, Delivery, Correlations)."
+        "Start with the Executive Briefing for the company-level story and the Intelligence Lab for deeper analytics, then move to the yearly and quarterly views and the deep dives "
+        "(Across Years, Platform, Country, Delivery, Correlations)."
     )
 
     st.markdown("**Disclaimer**")
@@ -4079,7 +4104,7 @@ def apply_global_filters(
 
 
 def main() -> None:
-    st.set_page_config(page_title=APP_TITLE, page_icon="W", layout="wide")
+    st.set_page_config(page_title=APP_TITLE, page_icon="S", layout="wide")
     if "dark_mode" not in st.session_state:
         st.session_state["dark_mode"] = False
     st.sidebar.toggle("Dark mode", key="dark_mode")
@@ -4116,7 +4141,9 @@ def main() -> None:
     else:
         market_cache_key = "missing_market_file"
     market_monthly = load_market_data(market_cache_key, str(MARKET_MONTHLY_FILE))
-    st.caption(latest_data_handled_text(economy, orders, stock_monthly, market_monthly))
+    results = load_segment_results()
+    reported_label = str(results["quarterly"].iloc[-1]["label"]) if results else None
+    st.caption(latest_data_handled_text(economy, orders, stock_monthly, market_monthly, reported_label))
 
     if orders.empty:
         st.error("No order intake records were parsed from the yearly order sheets.")
@@ -4129,10 +4156,15 @@ def main() -> None:
         st.warning("Filters returned no rows. Adjust the sidebar filters.")
         return
 
-    render_header_metrics(orders_f, platforms_f)
+    intel = get_intel(economy_fy, orders, platforms, stock_monthly, market_monthly)
+
+    with st.container(key="header_kpis"):
+        render_header_metrics(orders_f, platforms_f)
     tabs = st.tabs(
         [
-            "Overall Economics",
+            "Economy Summary",
+            "Executive Briefing",
+            "Intelligence Lab",
             "Year-by-Year Overview",
             "Quarterly Analytics",
             "Across Years",
@@ -4149,24 +4181,28 @@ def main() -> None:
     with tabs[0]:
         render_overall_economics(economy, stock_monthly, market_monthly, economy_fy, quarterly_onshore_cost)
     with tabs[1]:
-        render_yearly_overview(orders_f, platforms_f)
+        render_executive_briefing(intel)
     with tabs[2]:
-        render_quarterly_analytics(orders_f)
+        render_intelligence_lab(intel, orders_f, platforms_f)
     with tabs[3]:
-        render_across_years(orders_f, platforms_f)
+        render_yearly_overview(orders_f, platforms_f)
     with tabs[4]:
-        render_platform_lens(platforms_f)
+        render_quarterly_analytics(orders_f)
     with tabs[5]:
-        render_country_lens(orders_f, platforms_f)
+        render_across_years(orders_f, platforms_f)
     with tabs[6]:
-        render_delivery_capacity(orders_f)
+        render_platform_lens(platforms_f)
     with tabs[7]:
-        render_correlations(orders_f)
+        render_country_lens(orders_f, platforms_f)
     with tabs[8]:
-        render_latest_news()
+        render_delivery_capacity(orders_f)
     with tabs[9]:
-        render_latest_patents()
+        render_correlations(orders_f)
     with tabs[10]:
+        render_latest_news()
+    with tabs[11]:
+        render_latest_patents()
+    with tabs[12]:
         render_information_page()
 
 
