@@ -227,6 +227,26 @@ def fig_book_to_bill(intel: Intel, first_year: int = 2016, height: int = 400) ->
     return fig
 
 
+def fig_price_estimates(intel: Intel, first_year: int = 2016, height: int = 400) -> go.Figure:
+    """Rough EUR m per MW. Estimates only: Siemens Energy has not disclosed MW or an average selling price since FY2022."""
+    t = tokens()
+    e = intel.econ.loc[first_year:]
+    fig = go.Figure()
+    for col, name, color, dash, mode in (
+        ("rev_per_mw_3y", "New-unit revenue per delivered MW, 3-year pooled (onshore + offshore)", t["muted"], "dot", "lines"),
+        ("rev_per_mw", "New-unit revenue per delivered MW (onshore + offshore)", t["blue"], "solid", "lines+markers"),
+        ("asp_onshore", "Average selling price, onshore (as reported)", t["orange"], "solid", "lines+markers"),
+    ):
+        s = e[col].dropna() if col in e else None
+        if s is None or s.empty:
+            continue
+        fig.add_trace(go.Scatter(x=s.index, y=s, mode=mode, name=name, line=_line(t, color) | {"dash": dash},
+                                 marker=dict(size=8, color=color, line=dict(color=t["surface"], width=2)), hovertemplate="FY%{x}: EUR %{y:.2f}m/MW<extra>" + name + "</extra>"))
+    style_figure(fig, title="Estimated price per MW (EUR m per MW)", height=height, ytitle="EUR m / MW", hovermode="x unified", legend=True)
+    year_axis(fig)
+    return fig
+
+
 def fig_margins(intel: Intel, first_year: int = 2016, height: int = 400) -> go.Figure:
     t = tokens()
     e = intel.econ.loc[first_year:]

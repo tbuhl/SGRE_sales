@@ -218,6 +218,33 @@ def insight_service(i: Intel) -> Insight | None:
     )
 
 
+def insight_price(i: Intel) -> Insight | None:
+    e = i.econ
+    if e.empty or "asp_onshore" not in e:
+        return None
+    asp = e["asp_onshore"].dropna()
+    if len(asp) < 4:
+        return None
+    last, low_year = int(asp.index.max()), int(asp.idxmin())
+    rev = e["rev_per_mw_3y"].dropna() if "rev_per_mw_3y" in e else pd.Series(dtype=float)
+    rev_txt = f" New-unit revenue per delivered MW, pooled over three years, was about EUR {rev.iloc[-1]:.2f}m in FY{int(rev.index[-1])} (onshore and offshore together)." if len(rev) else ""
+    return Insight(
+        key="price",
+        category="Pricing",
+        headline=f"The onshore turbine price (estimate) rose {pc(pct_change(asp[last], asp[low_year]))} from its FY{low_year} low to EUR {asp[last]:.2f}m per MW in FY{last}",
+        detail=(
+            f"The company-reported onshore average selling price was EUR {asp[low_year]:.2f}m per MW in FY{low_year} and EUR {asp[last]:.2f}m in FY{last}, the last year it was disclosed.{rev_txt} "
+            "These are estimates: Siemens Energy no longer reports delivered MW or a selling price, so later years cannot be estimated."
+        ),
+        metric=f"EUR {asp[last]:.2f}m",
+        metric_label=f"estimated onshore price per MW, FY{last}",
+        tone="neutral",
+        series=asp.tolist(),
+        series_start=int(asp.index.min()),
+        where="Intelligence Lab > Momentum & Outlook",
+    )
+
+
 def insight_lumpiness(i: Intel) -> Insight | None:
     o = i.orders
     recent = o[o["order_year"] >= i.as_of.year - 3]
@@ -386,6 +413,7 @@ INSIGHT_BUILDERS: list[Callable[[Intel], Insight | None]] = [
     insight_outlook,
     insight_backlog,
     insight_service,
+    insight_price,
     insight_lumpiness,
     insight_announced,
     insight_product,

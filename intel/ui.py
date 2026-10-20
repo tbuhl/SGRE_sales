@@ -243,7 +243,13 @@ def _section_momentum(intel: Intel) -> None:
         show(co.fig_service_share_fy(intel), "lab_svcfy")
     with c12:
         show(co.fig_offshore_orders_share(intel), "lab_orderbiz")
-    cols_view = ["revenue", "revenue_growth", "net_profit", "net_margin", "profit_before_si", "margin_before_si", "order_intake", "book_to_bill", "service_share", "service_growth", "offshore_order_share", "backlog_bn", "cover_years"]
+    show(co.fig_price_estimates(intel), "lab_price")
+    st.caption(
+        "Estimates, not a published price list. The onshore average selling price is the company's own figure and was last reported for FY2022. "
+        "New-unit revenue per delivered MW covers onshore and offshore turbines and lags orders, so the pooled three-year line is the steadier read. "
+        "Siemens Energy has not disclosed delivered MW since FY2022, so no estimate is possible for later years."
+    )
+    cols_view = ["revenue", "revenue_growth", "net_profit", "net_margin", "profit_before_si", "margin_before_si", "order_intake", "book_to_bill", "asp_onshore", "rev_per_mw", "rev_per_mw_3y", "service_share", "service_growth", "offshore_order_share", "backlog_bn", "cover_years"]
     table_view(intel.econ[[c for c in cols_view if c in intel.econ]].dropna(how="all").round(3), "Data table: derived economics by fiscal year")
     st.caption("Net income includes special items and the 2023 turbine-quality provisions; margin before special items comes from the segment results (FY24 onward). The workbook's FY table has no FY26 column.")
 

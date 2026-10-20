@@ -34,7 +34,9 @@ def economics_table(economy_fy: pd.DataFrame, fy_results: pd.DataFrame | None = 
     t["wtg_mw_offshore"] = s("WTG volume [MW] offshore")
     t["wtg_mw_onshore"] = s("WTG volume [MW] onshore")
     t["employees"] = s("Employees")
-    t["asp_onshore"] = s("Average selling price (onshore)")
+    t["asp_onshore"] = s("Average selling price (onshore)").combine_first(s("average selling price onshore"))  # two spellings of one series
+    t["rev_per_mw"] = (t["revenue_new_units"] / t["wtg_mw"]).where(t["wtg_mw"] > 0)  # new-unit revenue, onshore and offshore, per delivered MW
+    t["rev_per_mw_3y"] = t["revenue_new_units"].rolling(3).sum() / t["wtg_mw"].rolling(3).sum()
     for col, name in (("backlog_onshore_bn", "order backlog onshore"), ("backlog_offshore_bn", "order backlog offshore"), ("backlog_service_bn", "order backlog service")):
         t[col] = s(name)
     t["backlog_bn"] = t[["backlog_onshore_bn", "backlog_offshore_bn", "backlog_service_bn"]].sum(axis=1, min_count=3)

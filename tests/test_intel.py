@@ -276,6 +276,20 @@ def test_economics_table_definitions(raw, results):
     assert 2026 not in t.index or pd.isna(t.loc[2026, "profit_before_si"])  # incomplete fiscal years are not added
 
 
+def test_price_estimates(raw, results):
+    seg = outlook.segment_table(results)
+    fy = outlook.fiscal_year_table(seg)
+    t = economics.economics_table(raw["economy_fy"], fy)
+    asp = t["asp_onshore"].dropna()
+    assert len(asp) >= 4 and asp.index.max() == 2022  # data sanity: reported to FY2022 and never after
+    assert asp.between(0.4, 1.2).all()  # data sanity: plausible EUR m per MW
+    y = 2022
+    assert t.loc[y, "rev_per_mw"] == pytest.approx(t.loc[y, "revenue_new_units"] / t.loc[y, "wtg_mw"])
+    w = t.loc[2020:2022]
+    assert t.loc[y, "rev_per_mw_3y"] == pytest.approx(w["revenue_new_units"].sum() / w["wtg_mw"].sum())  # pooled, not a mean of ratios
+    assert t.loc[t["wtg_mw"].isna(), "rev_per_mw"].isna().all()  # no estimate where MW were not reported
+
+
 def test_zero_as_missing_detects_wtg_volume(raw):
     found = dict(quality.zero_as_missing(raw["economy_fy"]))
     assert "WTG volume [MW]" in found and {2023, 2024, 2025} <= set(found["WTG volume [MW]"])  # data sanity
